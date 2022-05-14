@@ -1,0 +1,7 @@
+[package]
+name = "cargo-project-with-ambiguous-dependency"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+foobar = { git = "https://github.com/toriningen/ambiguous-cargo-git-dependency" }
